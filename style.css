@@ -244,6 +244,9 @@ footer>p {
     .sponsors-img, .features{
         flex-direction: column;
     }
+    .features{
+        padding: 0 20px;
+    }
     .features-img img{
         margin-left: 20px;
         width: 90%;

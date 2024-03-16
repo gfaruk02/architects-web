@@ -153,7 +153,7 @@ main{
 
 /*features*/
 .features{
-    margin: 130px 0;
+    margin: 130px 10px;
     display: flex;
     gap: 80px;
 }
@@ -175,7 +175,35 @@ main{
 .features-card-title{
     padding: 10px 0px;
 }
+.features-img img{
+    margin-left: 100px;
+    max-width: 100%;
+}
+.ten-years-badge{
+    text-align: center;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #fff;
+    width: 302px;
+    padding: 60px 10px;
+    margin-top: -110px;
+    position: relative;
+}
+.ten-years-badge h2{
+    font-size: 3rem;
+}
+.ten-years-badge h3{
+    font-size: 4rem;
+}
 
+footer{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 200px;
+    text-align: center;
+}
+footer>p {
+    font-size: 1.25rem;
+}
 
 /*responsive media queries*/
 /*mobile*/
@@ -211,8 +239,11 @@ main{
     .sponsors-description{
         padding: 20px;
     }
-    .sponsors-img{
+    .sponsors-img, .features{
         flex-direction: column;
+    }
+    .features-img img{
+        margin-left: 0px;
     }
     
 }

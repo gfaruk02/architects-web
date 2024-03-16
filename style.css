@@ -156,7 +156,7 @@ main{
     margin: 130px 0px;
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+    gap: 100px;
 }
 
 .features-content .section-title{
@@ -177,7 +177,8 @@ main{
     padding: 10px 0px;
 }
 .features-img img{
-    margin-left: 60px;
+    margin-left: 50px;
+    height: 90%;
    
 }
 .ten-years-badge{
@@ -199,7 +200,7 @@ main{
 
 footer{
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 200px;
+    padding: 50px 10px;
     text-align: center;
 }
 footer>p {
@@ -244,9 +245,13 @@ footer>p {
         flex-direction: column;
     }
     .features-img img{
-        margin-left: 0px;
+        margin-left: 20px;
+        width: 90%;
     }
-    
+    .ten-years-badge{
+        margin-left: 30px;
+        margin-top: -20px;
+    }
 }
 
 /*tablet or medium devices*/
@@ -269,6 +274,14 @@ footer>p {
     .sponsors-img img{
         max-width: 110px;
      }
+     .features{
+        padding: 0 50px;
+        flex-direction: column;
+    }
+    .features-img img{
+        width: 100%;
+        margin-left: 0;
+    }
 }
 @media screen and (min-width:961px) and (max-width: 1080px) {
     header{
@@ -276,6 +289,15 @@ footer>p {
     }
     .facts{
         padding: 0px 20px;
+    }
+    .features{
+        gap: 30px;
+        padding: 0 10px;
+        
+    }
+    .features-img img{
+        width: 500px;
+        margin-left: 0;
     }
 
 }

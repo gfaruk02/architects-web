@@ -108,7 +108,7 @@ main{
 }
 /*facts section*/
 .facts{
-    margin: 70px 0px;
+    margin: 50px 0px;
 }
 
 .facts-card-container{
@@ -132,7 +132,24 @@ main{
     margin: 10px 0px;
 }
 
-
+.sponsors{
+    margin: 30px 0px;
+    text-align: center;
+}
+/*sponsors*/
+.sponsors-description{
+    padding: 20px 200px;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    gap: 30px;
+    align-items: center;
+}
+.sponsors-img img{
+   max-width: 100px;
+}
 
 /*responsive media queries*/
 /*mobile*/
@@ -155,6 +172,23 @@ main{
     .teams-content{
         padding: 0px 20px;
     }
+    .facts{
+        padding: 0px 20px;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .facts-card-container .card{
+        margin: 20px;
+    }
+    .sponsors-description{
+        padding: 20px;
+    }
+    .sponsors-img{
+        flex-direction: column;
+    }
+    
 }
 
 /*tablet or medium devices*/
@@ -168,10 +202,19 @@ main{
     .teams-contaner{
         flex-direction: column;
     }
+    .facts{
+        padding: 0px 10px;
+    }
+    .facts-card-container .card{
+        margin: 10px;
+    }
 }
 @media screen and (min-width:961px) and (max-width: 1080px) {
     header{
         padding: 30px;
+    }
+    .facts{
+        padding: 0px 20px;
     }
 
 }

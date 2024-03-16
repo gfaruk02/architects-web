@@ -75,7 +75,7 @@ nav li a{
 }
 /*main section*/
 main{
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 70px auto;
 }
 /*teams section*/
@@ -153,9 +153,10 @@ main{
 
 /*features*/
 .features{
-    margin: 130px 10px;
+    margin: 130px 0px;
     display: flex;
-    gap: 80px;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .features-content .section-title{
@@ -176,8 +177,8 @@ main{
     padding: 10px 0px;
 }
 .features-img img{
-    margin-left: 100px;
-    max-width: 100%;
+    margin-left: 60px;
+   
 }
 .ten-years-badge{
     text-align: center;

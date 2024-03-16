@@ -89,7 +89,7 @@ main{
     gap: 1.5rem;
 }
 .teams-content{
-    padding: 0px 70px;
+    padding: 0px 50px;
 }
 .teams-title{
     font-size: 2.8rem;
@@ -133,12 +133,12 @@ main{
 }
 
 .sponsors{
-    margin: 30px 0px;
+    padding: 50px 0px;
     text-align: center;
 }
 /*sponsors*/
 .sponsors-description{
-    padding: 20px 200px;
+    padding: 20px;
 }
 .sponsors-img{
     display: flex;
@@ -148,7 +148,7 @@ main{
     align-items: center;
 }
 .sponsors-img img{
-   max-width: 100px;
+   max-width: 130px;
 }
 
 /*responsive media queries*/
@@ -208,6 +208,9 @@ main{
     .facts-card-container .card{
         margin: 10px;
     }
+    .sponsors-img img{
+        max-width: 110px;
+     }
 }
 @media screen and (min-width:961px) and (max-width: 1080px) {
     header{

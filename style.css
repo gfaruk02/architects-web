@@ -151,6 +151,32 @@ main{
    max-width: 130px;
 }
 
+/*features*/
+.features{
+    margin: 130px 0;
+    display: flex;
+    gap: 80px;
+}
+
+.features-content .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left:30px;
+}
+.features-content .section-description{
+    padding: 30px 0px;
+}
+.features-card{
+    padding: 30px ;
+    background:#fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+}
+.features-card-title{
+    padding: 10px 0px;
+}
+
+
 /*responsive media queries*/
 /*mobile*/
 @media screen and (max-width: 576px) {
